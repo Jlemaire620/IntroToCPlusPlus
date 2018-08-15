@@ -15,7 +15,7 @@ int main()
 	std::string Last;
 	std::cout << "Enter your last name..." << std::endl;
 	std::cin >> Last;
-	std::cout << "Hello there " << First << " " << Last << std::endl;
+	std::cout << "Hello there " << First << " " << Last << std::endl; 
 
 	system("Pause");
 }

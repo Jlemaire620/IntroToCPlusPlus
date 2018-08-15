@@ -17,7 +17,7 @@ int main()
 	numB = 5;
     sum = numA + numB;
 
-	float lhs, rhs;
+	float lhs, rhs; 
 	float fsum;
 	lhs = 0.2f;
 	rhs = 0.6f;
