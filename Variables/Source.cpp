@@ -138,9 +138,23 @@ int main()
     int monthsAlive = age * 12;
 	std::cout << " You are " << monthsAlive << " months old! " << std::endl;
 	// ...
+
 	system("pause");
 
-
+	// main.cpp/main()
+	// ...
+	// Conforming to Conventions)
+	int age;
+	int bullet_count;
+	float dog_years;
+	int qty;
+	float shield_value;
+	float defense_matrix_cooldown;
+	int red_armor_value;
+	float red_armor_ratio;
+	int happiness;
+	int gandhi_aggression;
+	// ...
 
 
 }
