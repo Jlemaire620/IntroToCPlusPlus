@@ -144,17 +144,24 @@ int main()
 	// main.cpp/main()
 	// ...
 	// Conforming to Conventions)
-	int age;
-	int bullet_count;
-	float dog_years;
-	int qty;
-	float shield_value;
-	float defense_matrix_cooldown;
-	int red_armor_value;
-	float red_armor_ratio;
-	int happiness;
-	int gandhi_aggression;
+	//int age;
+	//int bullet_count;
+	//float dog_years;
+	//int qty;
+	//float shield_value;
+	//float defense_matrix_cooldown;
+	//int red_armor_value;
+	//float red_armor_ratio;
+	//int happiness;
+	//int gandhi_aggression;
+	
+	// main.cpp/main()
 	// ...
+	// The Right Tool for the Job)
+	//int num; // integer
+	//float num2; // single precision floating point
+	//			// ...
+
     system("pause");
 
 }
