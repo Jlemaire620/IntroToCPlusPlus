@@ -139,7 +139,7 @@ int main()
 	std::cout << " You are " << monthsAlive << " months old! " << std::endl;
 	// ...
 
-	system("pause");
+	
 
 	// main.cpp/main()
 	// ...
@@ -155,6 +155,6 @@ int main()
 	int happiness;
 	int gandhi_aggression;
 	// ...
-
+    system("pause");
 
 }
