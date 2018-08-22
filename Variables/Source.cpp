@@ -129,6 +129,17 @@ int main()
 	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 	std::cout << "avg: " << avg << std::endl;
 	// ...
+	
+	int g = 5, h = 10, temp;
+	std::cout << "Enter a number to represent g: ";
+	std::cin >> g;
+	std::cout << "Enter a number to represent h: ";
+	std::cin >> h;
+	temp = g;
+	g = h;
+	h = temp;
+	std::cout << "After swappping..." << std::endl;
+	std::cout << "g = " << g << ", h = " << h << std::endl;
 
 	// main.cpp/main()
 	// ...
@@ -141,7 +152,6 @@ int main()
     int monthsAlive = age * 12;
 	std::cout << " You are " << monthsAlive << " months old! " << std::endl;
 	// ...
-
 	
 
 	// main.cpp/main()
@@ -163,7 +173,17 @@ int main()
 	// The Right Tool for the Job)
 	//int num; // integer
 	//float num2; // single precision floating point
-	//			// ...
+	//char 'a'
+	//short int
+	//unsigned short int
+	//unsigned int
+	//long int
+	//unsigned long int
+	//long long int
+	//unsigned long long int
+	//double
+	//wchar_t
+
 
     system("pause");
 
