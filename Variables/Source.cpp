@@ -94,7 +94,8 @@ int main()
 	std::cout << "(Celsius to Fahrenheit)" << std::endl;
 	std::cout << "Celsius: " << degCelsius << std::endl;
 	std::cout << "Fahrenheit: " << degFahrenheit << std::endl;
-	// ...
+	// ...
+
 	// main.cpp/main()
 	// ...
 	// Area of a Rectangle)
@@ -127,7 +128,9 @@ int main()
 	std::cout << "(Average of Five)" << std::endl;
 	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 	std::cout << "avg: " << avg << std::endl;
-	// ...	// main.cpp/main()
+	// ...
+
+	// main.cpp/main()
 	// ...
 	// Fun Facts for Your Age)
 	
