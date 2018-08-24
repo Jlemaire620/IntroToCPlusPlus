@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Vari
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conditional Statements", "Conditionals\Conditionals.vcxproj", "{F58D5476-E67C-4314-99FD-98F2CED661DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops", "Loops\Loops.vcxproj", "{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F58D5476-E67C-4314-99FD-98F2CED661DD}.Release|x64.Build.0 = Release|x64
 		{F58D5476-E67C-4314-99FD-98F2CED661DD}.Release|x86.ActiveCfg = Release|Win32
 		{F58D5476-E67C-4314-99FD-98F2CED661DD}.Release|x86.Build.0 = Release|Win32
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Debug|x64.ActiveCfg = Debug|x64
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Debug|x64.Build.0 = Debug|x64
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Debug|x86.Build.0 = Debug|Win32
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Release|x64.ActiveCfg = Release|x64
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Release|x64.Build.0 = Release|x64
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Release|x86.ActiveCfg = Release|Win32
+		{8B8335F2-F673-4B20-AED2-6607A1B4CE5B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
