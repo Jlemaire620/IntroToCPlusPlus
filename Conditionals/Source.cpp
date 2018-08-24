@@ -119,8 +119,72 @@ int main()
 			std::cout << "Invalid";
 
 		}
+		//5
+		int r = 5;
+		int z;
+		r = (r == 0) ? 0 : z = 10 / r;
+
+		//6
+		int num1, num2;
+		char opp;
+		std::cout << "Enter two numbers" << std::endl;
+		std::cin >> num1 >> num2;
+		std::cout << "Which opperation do you want to use: (+), (-), (*), (/), (%)?" << std::endl;
+		std::cin >> opp;
+		switch (opp)
+		{
+		case '+':
+			std::cout << num1 + num2;
+			break;
+		case '-':
+			std::cout << num1 - num2;
+			break;
+		case '*':
+			std::cout << num1 * num2;
+			break;
+		case '/':
+			std::cout << num1 / num2;
+			break;
+		case '%':
+			std::cout << num1 % num2;
+			break;
+		default:
+			std::cout << "Invalid opperations" << std::endl;
+
+		}
+		//7
+		char monthPosition;
+		std::cout << " Enter the number of a month in the year." << std::endl;
+		std::cin >> monthPosition;
+		switch (monthPosition)
+		{
+		case '1':
+			std::cout << "January: 31 days long." << std::endl;
+			break;
+		case '2':
+			std::cout << "Febuary: 28 days long." << std::endl;
+			break;
+		case '3':
+			std::cout << "March: 31 days long." << std::endl;
+			break;
+		case '4':
+			std::cout << "April: 30 days long." << std::endl;
+			break;
+		case '5':
+			std::cout << "May: 31 days long." << std::endl;
+			break;
+		case '6':
+			std::cout << "June: 30 days long." << std::endl;
+			break;
+		case '7':
+			std::cout << "July: 31 days long." << std::endl;
+			break;
+		case '8':
+			std::cout << "August: 31 days long." << std::endl;
+			break;
+		case '9':
+			std::cout << "September: 30 days long." << std::endl;
+			break;
 	}system("pause");
 	  
-
-
 }
