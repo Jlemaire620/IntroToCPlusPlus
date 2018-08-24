@@ -99,21 +99,26 @@ int main()
 		}
 		
 		//4
-		int choice;
-		switch (choice)
+		char userChoice;
+		std::cout << "Enter a number bettwen 1 and 4" << std::endl;
+		std::cin >> userChoice;
+		switch (userChoice)
 		{
 		case '1':
-			std::cout << "1";
+			std::cout << "1" << std::endl;
 			break;
-		case '2, 3':
-			std::cout << "2 or 3";
+		case '2':
+			std::cout << "2" << std::endl;
+		case '3':
+			std::cout << "3" << std::endl;
 			break;
 		case '4':
-			std::cout << "4";
+			std::cout << "4" << std::endl;
 			break;
 		default:
 			std::cout << "Invalid";
 
+		}
 	}system("pause");
 	  
 
