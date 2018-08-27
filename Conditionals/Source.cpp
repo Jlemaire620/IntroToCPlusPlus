@@ -97,7 +97,36 @@ int main()
 		{
 			std::cout << numb2 << std::endl;
 		}
-		
+		//3...attempt.
+		int a, b, c, d, e;
+		std::cout << "Enter five numbers" << std::endl;
+		std::cin >> a >> b >> c >> d >> e;
+		if (a > b > c > d > e)
+		{
+			std::cout << a << b << c << d << e;
+		}
+		else if (b > a > c > d > e)
+		{
+			std::cout << b << a << c << d << e;
+		}
+		else if (c > a > b > d > e)
+		{
+			std::cout << c << a << b << d << e;
+		}
+		else if (d > a > b > c > e)
+		{
+			std::cout << d << a << b << c << e;
+		}
+		else if (e > a > b > c > d)
+		{
+			std::cout << e << a << b << c << d;
+		}
+		else
+		{
+			std::cout << a << b << c << d << e << std::endl;
+		}
+
+
 		//4
 		char userChoice;
 		std::cout << "Enter a number bettwen 1 and 4" << std::endl;
@@ -195,13 +224,25 @@ int main()
 			std::cout << "December: 31 days long." << std::endl;
 			break;
 		}
+		//8
+		//a.numPos > numNeg True.
+		//b.frstChar > scndChar True.
+		//c. !(numPos + numNeg) False.
+		//d. (numPos == -30) || (numNeg == -55) True.
+		//e. (frstPrice >= 4.1) && (frstPrice <= 9.9) True.
+		//f. !flag && (scndChar <= ‘R’) False.
+		//g. (numPos < 66) || (flag && numPos > 35) True.
+		//h. ++numPos == 36 False.
+		//i.numPos++ == 36 True.
+		//j. (frstChar == ‘j’) || (frstChar == ‘J’) True.
 
 		//9
 		//a. (a || b) || (a && b) True
 		//b. !((!a) && (a)) || (a && b) True
 		//c. !((5 || a) || (!b)) && (!(a) && b) 
 		//d.a || b && a
-		//e. !a&&b
+		//e. !a&&b
+
 		
 	}system("pause");
 	  
