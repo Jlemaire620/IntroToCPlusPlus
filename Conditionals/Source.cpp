@@ -46,8 +46,8 @@ int main()
 	}  
 
 	{
-        int lhs, rhs;
-	    char op;
+		int lhs, rhs;
+		char op;
 		std::cout << "Enter two numbers" << std::endl;
 		std::cin >> lhs >> rhs;
 		std::cout << "Do you want to Add (+) or Subtract(-)?" << std::endl;
@@ -64,7 +64,7 @@ int main()
 			std::cout << "Invalid math opperation" << std::endl;
 			break;
 		}
-
+	}
 		int health = 100;
 		if (health > 0)
 		{
@@ -91,12 +91,13 @@ int main()
 		std::cin >> numb1 >> numb2;
 		if (numb1 > numb2)
 		{
-			std::cout << numb1 << std::endl;
+			std::cout << "The larger number is.." << numb1 << std::endl;
 		}
 		else if (numb2 > numb1)
 		{
-			std::cout << numb2 << std::endl;
+			std::cout << "The larger number is.." << numb2 << std::endl;
 		}
+
 		//3...attempt.
 		int a, b, c, d, e;
 		std::cout << "Enter five numbers" << std::endl;
@@ -125,7 +126,6 @@ int main()
 		{
 			std::cout << a << b << c << d << e << std::endl;
 		}
-
 
 		//4
 		char userChoice;
@@ -163,19 +163,19 @@ int main()
 		switch (opp)
 		{
 		case '+':
-			std::cout << num1 + num2 << std::endl;
+			std::cout << num1 + num2;
 			break;
 		case '-':
-			std::cout << num1 - num2 << std::endl;
+			std::cout << num1 - num2;
 			break;
 		case '*':
-			std::cout << num1 * num2 << std::endl;
+			std::cout << num1 * num2;
 			break;
 		case '/':
-			std::cout << num1 / num2 << std::endl;
+			std::cout << num1 / num2;
 			break;
 		case '%':
-			std::cout << num1 % num2 << std::endl;
+			std::cout << num1 % num2;
 			break;
 		default:
 			std::cout << "Invalid opperations" << std::endl;
@@ -223,6 +223,8 @@ int main()
 		case '12':
 			std::cout << "December: 31 days long." << std::endl;
 			break;
+		default:
+			std::cout << "Invalid Entry" << std::endl;
 		}
 		//8
 		//a.numPos > numNeg True.
@@ -234,18 +236,16 @@ int main()
 		//g. (numPos < 66) || (flag && numPos > 35) True.
 		//h. ++numPos == 36 False.
 		//i.numPos++ == 36 True.
-		//j. (frstChar == ‘j’) || (frstChar == ‘J’) True.
+		//j. (frstChar == ‘j’) || (frstChar == ‘J’) True.
 
 		//9
 		//a. (a || b) || (a && b) True
-		//b. !((!a) && (a)) || (a && b) True
-		//c. !((5 || a) || (!b)) && (!(a) && b) 
-		//d.a || b && a
-		//e. !a&&b
+		//b. !((!a) && (a)) || (a && b) False
+		//c. !((5 || a) || (!b)) && (!(a) && b) True
+		//d. a || b && a True
+		//e. !a&&b False
 
-		
-	}system("pause");
+
+	system("pause");
 	  
-
-
 }

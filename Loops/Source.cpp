@@ -5,22 +5,21 @@ int main()
 	int count = 1;
 	while (count <= 10)
 	{
-		
 		std::cout << count << (count < 10) ? "," : "";
 		count++;
-		
+
 	}
 	std::cout << std::endl;
 
 	char input;
 	do
 	{
-		std::cout << "Press 'q' or 'Q' to exit the application";
+		std::cout << "Press 'q or 'Q' to exit the applicaiton";
 		std::cin >> input;
 	} while (input != 'q' && input != 'Q');
-	
+
 	int i = 10;
-    for (int i = 0; i <= 10; i += 2)
+	for (int i = 0; i <= 10; i += 2)
 	{
 		std::cout << i << std::endl;
 	}
@@ -75,29 +74,13 @@ int main()
 		{
 			std::cout << "Buzz" << std::endl;
 		}
-
+		 
 		//Excersize 3
 		for (int a = 0; a <= 1000; a += 1)
-			if (a % 3 == 0 || a % 5 == 0);
+		if (a % 3 == 0 || a % 5 == 0);
 
-
+		
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      system("pause");
+	
+     system("pause");
 }
