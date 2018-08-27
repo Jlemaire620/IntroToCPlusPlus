@@ -40,6 +40,36 @@ int main()
 				std::cout << Arrays[i][j] << std::endl;
 			}
 		}
+		//Exersize - Arrays
+
+	   //1
+
+	   //int numbers[10] = { 0, 0, 1, 0, 0, 1, 0, 0, 1, 1 }; Valid
+	   //int matrix[5] = { 1, 2, 3, 4, 5, 6, 7 }; Invalid, more than 5 numbers
+	   //double radii[10] = (3.2, 4.7}; Invalid, can not have decimals
+	   //int table[7] = { 2, , , 27, , 45, 39 }; Valid
+	   //char codes[] = { 'A', 'X', '1', '2', 's' }; Valid
+	   //int blanks[]; Invalid, no entries
+	   //int collection[-20]; Invalid, can not have a negative
+	   //int hours[3] = 8, 12, 16; Invalid, undefined numbers 8, 12, 16
+
+	   //2
+		int values[] = { 2, 6, 10, 14 };
+		//std::cout << values[2]; Displays 10
+		//std::cout << ++values[0]; Displays 3
+		//std::cout << values[1]++; Displays 6
+		//x = 2; Undefined
+		//std::cout << values[++x]; Undefined
+		//std::cout << values[4]; Unasigned number		//3		int data[10] = { 1,2,3,4,5,6,7,8,9,10 };		for (int i = 0; i < 10; ++i)
+
+		//4
+		int num1, num2, num3, num4, num5;
+		std::cout << "Enter five numbers" << std::endl;
+		std::cin >> num1 >> num2 >> num3 >> num4 >> num5;
+		int storage[5]
+		
+
+
 	}
 	system("pause");
 }
