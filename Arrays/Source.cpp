@@ -60,7 +60,12 @@ int main()
 		//std::cout << values[1]++; Displays 6
 		//x = 2; Undefined
 		//std::cout << values[++x]; Undefined
-		//std::cout << values[4]; Unasigned number		//3		int data[10] = { 1,2,3,4,5,6,7,8,9,10 };		for (int i = 0; i < 10; ++i)
+		//std::cout << values[4]; Unasigned number
+
+		//3
+
+		int data[10] = { 1,2,3,4,5,6,7,8,9,10 };
+		for (int i = 0; i < 10; ++i)
 
 		//4
 		int num1, num2, num3, num4, num5;
