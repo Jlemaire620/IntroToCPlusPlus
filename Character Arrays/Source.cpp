@@ -3,7 +3,7 @@
 
 int main()
 {
-	char name[] = "Jordan";
+	/*char name[] = "Jordan";
 	int count = 6;
 	for (int i = 0; i < count; i++)
 	{
@@ -52,7 +52,15 @@ int main()
 				break;
 			}
 		}
-	}
+	}*/
 
+
+	//1
+	char name[30];
+	std::cout << "Enter your first and last name:" << std::endl;
+	std::cin.getline(name, 30);
+
+	//2
+	
 	system("pause");
 }

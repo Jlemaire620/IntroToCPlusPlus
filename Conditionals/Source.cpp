@@ -236,7 +236,8 @@ int main()
 		//g. (numPos < 66) || (flag && numPos > 35) True.
 		//h. ++numPos == 36 False.
 		//i.numPos++ == 36 True.
-		//j. (frstChar == ‘j’) || (frstChar == ‘J’) True.
+		//j. (frstChar == ‘j’) || (frstChar == ‘J’) True.
+
 
 		//9
 		//a. (a || b) || (a && b) True
