@@ -132,11 +132,11 @@ int main()
 	char intended[] = { 'U', 's', 'r' };
 	std::cout << "Enter a username that begins with 'usr'" << std::endl;
 	std::cin >> user;
-	if (strcmp(user, intended) == 0)
+	if (strcmp(user, intended))
 	{
-		std::cout << user << std::endl;
+		std::cout << "Valid username:" << user << std::endl;
 	}
-	else
+	else 
 	{
 		std::cout << "Invalid Entry" << std::endl;
 		std::cout << "Re-enter your username." << std::endl;
@@ -172,6 +172,7 @@ int main()
 	// Trying to print out the number of letters in Stop. error message is assigned ! so it will print !.
 
 	//9
+
 
 	system("pause");
 }
