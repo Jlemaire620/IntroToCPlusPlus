@@ -63,6 +63,7 @@ void CoinToss()
 
 int main()
 {
+	CoinToss();
 	//int expected = 10;
 	//int sizey = 4;
 	//int numbs[] = { 4,3,2,1 };
