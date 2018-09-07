@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Character Arrays", "Charact
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{9787F86A-92E7-4F17-B1BB-A7221D1BB957}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursive Functions", "Recursive Functions\Recursive Functions.vcxproj", "{D62B815E-A691-4D59-9923-7F93C2FB6FFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{9787F86A-92E7-4F17-B1BB-A7221D1BB957}.Release|x64.Build.0 = Release|x64
 		{9787F86A-92E7-4F17-B1BB-A7221D1BB957}.Release|x86.ActiveCfg = Release|Win32
 		{9787F86A-92E7-4F17-B1BB-A7221D1BB957}.Release|x86.Build.0 = Release|Win32
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Debug|x64.ActiveCfg = Debug|x64
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Debug|x64.Build.0 = Debug|x64
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Debug|x86.Build.0 = Debug|Win32
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Release|x64.ActiveCfg = Release|x64
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Release|x64.Build.0 = Release|x64
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Release|x86.ActiveCfg = Release|Win32
+		{D62B815E-A691-4D59-9923-7F93C2FB6FFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
