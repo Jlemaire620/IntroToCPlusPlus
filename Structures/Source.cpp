@@ -60,5 +60,5 @@ void main()
 	JordanShop.Items[1] = ManaPotion;
 	JordanShop.Items[2] = Sword;
 	JordanShop.Items[3] = Shield;
-	JordanShop.ChangePrice(HealthPotion.name, 55);
+	JordanShop.ChangePrice("HealthPotion", 55);
 }
