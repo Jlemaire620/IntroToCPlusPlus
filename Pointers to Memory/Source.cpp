@@ -16,6 +16,12 @@ void ReverseArray(int * ptr, int size)
 	    *last = temp;
 	}
 }
+
+void RevString(char* array)
+{
+	
+}
+
 int main()
 {
 	//Use a pointer to initalize all values in numbs to a 1
