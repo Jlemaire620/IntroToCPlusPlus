@@ -26,11 +26,25 @@ struct Shop
 	}
 	void AddStock(std::string ItemName, int quantity)
 	{
-		
+		for (int i = 0; i < 4; i++)
+		{
+			if (Items[i].quantity == quantity)
+			{
+				Items[i].quantity++;
+				ShopGold -= 100;
+			}
+		}
 	}
 	void SellStock(std::string ItemName, int quantity)
 	{
-		
+		for (int i = 0; i < 4; i++)
+		{
+			if (Items[i].quantity == quantity)
+			{
+				Items[i].quantity--;
+				ShopGold += 110;
+			}
+		}
 	}
 };
 
