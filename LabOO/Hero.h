@@ -8,10 +8,12 @@ private:
 	int m_power;
 
 public:
+	Hero(int hp, int power);
+
 	void Fight(Hero&);
 
 	bool IsAlive();
 	
 
-	int TakeDamage();
+	void TakeDamage(int amount);
 };

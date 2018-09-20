@@ -1,7 +1,14 @@
 #include "Hero.h"
 
-void Hero::Fight(Hero &)
+Hero::Hero(int hp, int power)
 {
+	hp = 300;
+	power = 50;
+}
+
+void Hero::Fight(Hero & opponent)
+{
+	opponent.TakeDamage(m_power);
 }
 
 bool Hero::IsAlive()
@@ -17,7 +24,8 @@ bool Hero::IsAlive()
 	
 }
 
-int Hero::TakeDamage()
+
+void Hero::TakeDamage(int amount)
 {
-	return 0;
+	m_health = m_health - amount;
 }
