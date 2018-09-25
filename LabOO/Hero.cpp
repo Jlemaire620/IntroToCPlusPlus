@@ -1,5 +1,9 @@
 #include "Hero.h"
 
+Hero::Hero()
+{
+}
+
 Hero::Hero(int hp, int power)
 {
 	hp = 300;
