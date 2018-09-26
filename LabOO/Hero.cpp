@@ -6,8 +6,8 @@ Hero::Hero()
 
 Hero::Hero(int hp, int power)
 {
-	hp = 300;
-	power = 50;
+	m_health = hp;
+	m_power = power;
 }
 
 void Hero::Fight(Hero & opponent)
@@ -17,14 +17,12 @@ void Hero::Fight(Hero & opponent)
 
 bool Hero::IsAlive()
 {
-	if (m_health == 0)
-	{
-		return false;
-	}
-	else
-	{
-		return true;
-	}
+	//K.I.S.S.
+	//KEEP
+	//IT
+	//SIMPLE
+	//STUPID
+	return (m_health > 0);
 	
 }
 

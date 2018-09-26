@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
+#include <string>
 
+//Descsribing what a hero class contains and what each hero has.
 class Hero
 {
 private:

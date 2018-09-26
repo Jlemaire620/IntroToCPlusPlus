@@ -4,10 +4,14 @@
 class Stack
 {
 private:
-	Hero m_Data[20];
+	Hero m_Data[10];
 	int m_Count;
 
 public:
+	Stack()
+	{
+		m_Count = 0;
+	}
 	Hero Top();
 	bool Pop();
 	bool Push(Hero*);

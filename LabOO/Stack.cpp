@@ -2,25 +2,47 @@
 
 Hero Stack::Top()
 {
+	if (!IsEmpty())
+	{
+		return m_Data[m_Count];
+	}
 	return Hero();
 }
 
 bool Stack::Pop()
 {
-	return false;
+	if (!IsEmpty())
+	{
+		m_Count = m_Count - 1;
+		return true;
+	}
+	else
+	{
+       return false;
+	}
+	
 }
 
 bool Stack::Push(Hero *)
 {
-	return false;
+	if (!IsEmpty())
+	{
+		m_Count = m_Count + 1;
+		return true;
+	}
+	else
+	{
+        return false;
+	}
+	
 }
 
 bool Stack::IsEmpty()
 {
-	return false;
+	return m_Count == 0;
 }
 
 bool Stack::IsFull()
 {
-	return false;
+	return m_Count == 10;
 }
