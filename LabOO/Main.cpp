@@ -25,4 +25,5 @@ int main()
 		 if (!bothAlive)
 			 break;
 	 }
+
 }
