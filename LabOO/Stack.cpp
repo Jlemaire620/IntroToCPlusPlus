@@ -1,5 +1,7 @@
 #include "Stack.h"
 
+
+//Checks the top of the stack to see if it is empty or not.
 Hero Stack::Top()
 {
 	if (!IsEmpty())
@@ -8,7 +10,7 @@ Hero Stack::Top()
 	}
 	return Hero();
 }
-
+//Pops whatever hero is on the top of the stack as long as the stack is not empty.
 bool Stack::Pop()
 {
 	if (!IsEmpty())
@@ -22,7 +24,7 @@ bool Stack::Pop()
 	}
 	
 }
-
+//Pushes a new hero onto the stack as long as the stack is not empty.
 bool Stack::Push(Hero *)
 {
 	if (!IsEmpty())
@@ -36,12 +38,12 @@ bool Stack::Push(Hero *)
 	}
 	
 }
-
+//Checks to see if the stack is empty or not.
 bool Stack::IsEmpty()
 {
 	return m_Count == 0;
 }
-
+//Checks to see if the stack is full or not.
 bool Stack::IsFull()
 {
 	return m_Count == 10;
