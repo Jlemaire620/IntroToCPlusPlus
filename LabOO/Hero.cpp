@@ -26,7 +26,6 @@ bool Hero::IsAlive()
 	
 }
 
-
 void Hero::TakeDamage(int amount)
 {
 	m_health = m_health - amount;
