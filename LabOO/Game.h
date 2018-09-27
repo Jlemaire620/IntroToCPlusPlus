@@ -4,5 +4,4 @@
 class Game
 {
 	Hero Battle(Hero&, Hero&);
-
 };
